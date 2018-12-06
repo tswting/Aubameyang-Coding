@@ -1,0 +1,265 @@
+body{
+   background: #151515;
+}
+
+.master-container {
+   position: absolute;
+  top: 50%;
+  margin-top: -200px;
+  left: 29%;
+  width: 100%;
+}
+
+.clipcontainer{
+   width:800px;
+   clip-path: polygon(0 0, 800px 0, 800px 500px, 0% 500px);
+}
+
+
+
+.imgclip1{
+   position: absolute;
+   width:800px;
+   animation-name: imgclip1;
+   animation-duration: 3s;
+   animation-direction: normal;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+
+}
+
+@keyframes imgclip1 {
+
+   0%{ transform: scale(1.2);
+   }
+
+   20%{ transform: scale(1.0);
+   }
+
+   60%{
+       transform: translateX(0px)
+   }
+
+   100%{   transform: translateX(170px);
+   }
+}
+
+.imgclip2{
+   position: absolute;
+   float: left;
+   width:1px;
+   transform-origin: 0% 100%;
+   animation-name: imgclip2;
+   animation-duration: 1.9s;
+   animation-delay: 1.2s;
+   animation-direction: normal;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+
+}
+
+@keyframes imgclip2 {
+   0% {
+       transform: scaleX(0);
+   }
+   100% {
+       transform: scaleX(600);
+   }
+}
+
+.imgclip4{
+   position: absolute;
+   float: left;
+   width:1px;
+   top: 350px;
+   transform-origin: 0% 100%;
+   animation-name: imgclip4;
+   animation-duration: 1.9s;
+   animation-delay: 2.2s;
+   animation-direction: normal;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+@keyframes imgclip4 {
+   0% {
+       transform: scaleX(0);
+   }
+   100% {
+       transform: scaleX(600);
+   }
+}
+
+
+.imgclip3{
+   position: absolute;
+   width:800px;
+   animation-name: imgclip3;
+   animation-duration: 3s;
+   animation-direction: normal;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+
+}
+
+@keyframes imgclip3 {
+   0%{ transform: scale(1.2);
+   }
+
+   20%{ transform: scale(1.0);
+   }
+
+   60%{
+       transform: translateX(0px)
+   }
+
+   100%{   transform: translateX(170px);
+   }
+}
+
+
+.titlecontainer {
+  position: absolute;
+  top: 10px;
+  left: 55px;
+}
+
+.titlecontentclip {
+    position: absolute;
+    width: 480px;
+    height: 130px;
+    clip-path: polygon(0 0, 480px 0, 480px 130px, 0% 130px);
+}
+
+.titlecontent {
+   position: absolute;
+   animation-name: titlecontent;
+   animation-duration: 2.5s;
+   animation-direction: normal;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+   animation-timing-function: linear, ease-out;
+}
+
+
+@keyframes titlecontent {
+  0%{ transform: translateY(100px);
+}
+
+  50%{ transform: translateY(100px);
+}
+100%{ transform: translateY(0px);
+}
+
+}
+
+.title1{
+   position: absolute;
+   top: 40px;
+   width: 400px;
+   font-family: 'Biryani', sans-serif;
+   font-size: 12px;
+   letter-spacing: -1px;
+   color: #EF0107;
+}
+
+.title2 {
+  position: absolute;
+  top: 49px;
+  width: 480px;
+  font-family: 'Biryani', sans-serif;
+  font-size: 22px;
+  letter-spacing: -1px;
+  color: #EF0107;
+
+}
+
+.copyclip{
+  position: absolute;
+    top: 150px;
+    width: 480px;
+    height: 150px;
+    clip-path: polygon(0 0, 480px 0, 480px 150px, 0% 150px);
+}
+.copy{
+   position: absolute;
+   width: 285px;
+   top: -10px;
+   font-size: 11px;
+   font-family: 'Open Sans', sans-serif;
+   text-align: justify;
+   text-justify: inter-word;
+   line-height: 20px;
+   color: #696969;
+   animation-name: copyclip;
+   animation-duration: 3s;
+   animation-direction: normal;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+   animation-timing-function: linear, ease-out;
+}
+
+
+@keyframes copyclip {
+  0%{ transform: translateY(-200px);
+}
+
+  70%{ transform: translateY(-200px);
+}
+100%{ transform: translateY(0px);
+}
+
+}
+
+.bottomtext {
+  position: absolute;
+  top: 355px;
+  width: 160px;
+  font-size: 11px;
+  font-family: 'Open Sans', sans-serif;
+  left: 55px;
+  animation-name: bottomtext;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+}
+
+@keyframes bottomtext {
+  0%{ opacity: 0;
+}
+
+  70%{ opacity: 0;
+}
+100%{ opacity: 100;
+}
+}
+
+
+.bottomtextheadline{
+font-weight: 700;
+padding-bottom: -10px;
+}
+
+.bottomtextdescript {
+  font-size: 10px;
+}
+
+.videocontainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 232px;
+  top: 370px;
+  animation-name: videocontainer;
+  animation-iteration-count: 1;
+  animation-duration: 4.5s;
+}
+
+@keyframes videocontainer {
+  0%{ opacity: 0;
+}
+
+  70%{ opacity: 0;
+}
+100%{ opacity: 100;
+}
+}
